@@ -1,0 +1,15 @@
+x=True
+p=0
+z=1
+c=0
+while x==True:
+  s=int(input("ingrese: "))
+  g=input("Ingrese (.) si desea finalizar: ")
+  p+=s
+  z*=s
+  c+=1
+  if g==".":
+    print(p)
+    print(z)
+    print(p/c)
+    break
